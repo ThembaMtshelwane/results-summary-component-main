@@ -12,9 +12,75 @@
     <link rel="stylesheet" href="./mobile.css" />
     <link rel="stylesheet" href="./desktop.css" />
 
+    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./desktop.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <section id="card">
+        <section id="top-section">
+          <p id="your-result">Your Result</p>
+          <section id="circle">
+            <p id="value">76</p>
+            <p id="out-off">of 100</p>
+          </section>
+          <p id="top-heading">Great</p>
+          <p id="top-body">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <section id="bottom-section">
+          <p id="bottom-heading">Summary</p>
+          <ul>
+            <li>
+              <section class="item" id="reaction">
+                <section class="right-bottom-body-info">
+                  <img src="./assets/images/icon-reaction.svg" alt="" />
+                  <p class="text-info">Reaction</p>
+                </section>
+                <p class="left-bottom-body-info"><span>80</span> / 100</p>
+              </section>
+            </li>
+            <li>
+              <section id="memory" class="item">
+                <section class="right-bottom-body-info">
+                  <img src="./assets/images/icon-memory.svg" alt="" />
+                  <p class="text-info">Memory</p>
+                </section>
+                <p class="left-bottom-body-info"><span>92</span> / 100</p>
+              </section>
+            </li>
+            <li>
+              <section class="item" id="verbal">
+                <section class="right-bottom-body-info">
+                  <img src="./assets/images/icon-verbal.svg" alt="" />
+                  <p class="text-info">Verbal</p>
+                </section>
+                <p class="left-bottom-body-info"><span>61</span> / 100</p>
+              </section>
+            </li>
+            <li>
+              <section class="item" id="visual">
+                <section class="right-bottom-body-info">
+                  <img src="./assets/images/icon-visual.svg" alt="" />
+                  <p class="text-info">Visual</p>
+                </section>
+                <p class="left-bottom-body-info"><span>72</span> / 100</p>
+              </section>
+            </li>
+          </ul>
+          <button>Continue</button>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
