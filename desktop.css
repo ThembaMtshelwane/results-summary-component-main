@@ -3,33 +3,32 @@
   main {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
     background-color: white;
   }
   #card {
     /* border: 2px solid black; */
     width: 75%;
-    height: 80%;
-    margin: auto;
     display: flex;
     box-shadow: 16px 16px 34px -15px rgba(0, 0, 0, 0.42);
     border-radius: 25px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   #top-section {
     /* border: 2px solid red; */
-    /* padding: 20px; */
-    margin: 0;
-    height: 100%;
-    width: 70%;
     border-radius: 25px;
+    margin: 0;
+    padding-bottom: 8%;
   }
 
   #your-result {
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: 7px;
     font-size: 1rem;
     /* border: 2px solid blue; */
+    padding: 0;
   }
 
   #circle {
@@ -48,9 +47,9 @@
     width: 80%;
   }
   #bottom-section {
-    /* border: 2px solid blue; */
     height: 100%;
     width: 100%;
+    margin: 0px;
   }
 
   #bottom-heading {
