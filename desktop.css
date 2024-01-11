@@ -1,2 +1,108 @@
 @media screen and (min-width: 650px) {
+  body,
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+  }
+  #card {
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    box-shadow: 16px 16px 34px -15px rgba(0, 0, 0, 0.42);
+    border-radius: 25px;
+  }
+
+  #top-section {
+    /* border: 2px solid red; */
+    /* padding: 20px; */
+    margin: 0;
+    height: 100%;
+    width: 70%;
+    border-radius: 25px;
+  }
+
+  #your-result {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    /* border: 2px solid blue; */
+  }
+
+  #circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+  }
+
+  #value {
+    font-size: 3rem;
+  }
+
+  #top-body {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 80%;
+  }
+  #bottom-section {
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+  }
+
+  #bottom-heading {
+    height: 7%;
+    /* border: 2px solid blue; */
+  }
+  ul {
+    /* border: 2px solid blue; */
+    height: 60%;
+  }
+  .item {
+    width: 100%;
+    height: 60px;
+    margin: 0px 0px 5px 0px;
+    padding: 10px;
+  }
+
+  .left-bottom-body-info {
+    width: 100%;
+    height: 20%;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+  }
+
+  button {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1000px) {
+  #card {
+    width: 70%;
+  }
+  #top-section {
+    width: 100%;
+  }
+  #bottom-section {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  #card {
+    width: 50%;
+  }
+  #top-section {
+    width: 100%;
+  }
+  #bottom-section {
+    width: 100%;
+  }
 }
