@@ -12,8 +12,8 @@
     box-shadow: 16px 16px 34px -15px rgba(0, 0, 0, 0.42);
     border-radius: 25px;
     margin: auto;
-    margin-top: 5%;
     margin-bottom: 5%;
+    margin-top: 200px;
   }
 
   #top-section {
@@ -82,26 +82,8 @@
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   #card {
-    width: 70%;
-  }
-  #top-section {
-    width: 100%;
-  }
-  #bottom-section {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1010px) {
-  #card {
-    width: 50%;
-  }
-  #top-section {
-    width: 100%;
-  }
-  #bottom-section {
-    width: 100%;
+    width: 600px;
   }
 }
